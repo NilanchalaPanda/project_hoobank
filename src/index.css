@@ -21,12 +21,12 @@
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
+    #faedde 0.89%,
+    #f5e3be 17.23%,
+    #f0c89d 42.04%,
+    #7deb7d 55.12%,
+    #5ee65c 71.54%,
+    #33cf50 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -67,8 +67,8 @@
 .bg-gray-gradient {
   background: linear-gradient(
     153.47deg,
-    rgba(255, 255, 255, 0) -341.94%,
-    #14101d 95.11%
+    rgba(186, 186, 186, 0) -341.94%,
+    #c8c8c8 95.11%
   );
 }
 

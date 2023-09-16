@@ -1,5 +1,5 @@
 import styles from "../style";
-import { discount, robot } from "../assets";
+import { discount, HERO_IMAGE, robot } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
@@ -28,14 +28,13 @@ const Hero = () => {
           Thesis Management.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of experts uses a methodology to identify the credit cards
-          most likely to fit your needs. We examine annual percentage rates,
-          annual fees.
+          Our system enables students to select research topics based on the thrust ideas of their respective departments, maintaining an optimal student-guide ratio, and avoiding duplication
         </p>
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        {/* <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" /> */}
+        {/* <img src={HERO_IMAGE} alt="billing" className="w-[100%] h-[100%] relative z-[5] rounded-md" /> */}
+        <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5] rounded-md" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

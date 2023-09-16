@@ -22,24 +22,24 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: send,
+    title: "Mentor - Mentee",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Facilitates effective communication and progress tracking between mentors and mentees, enhancing the dissertation experience.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Word Processor",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We provide a word processor for drafting and editing dissertation-related documents.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Kanban Board",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Our system features a Kanban board to organize and manage dissertation tasks and progress",
   },
 ];
 
